@@ -146,55 +146,57 @@ body{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.678);
     color: rgb(239, 239, 239);
-    padding-bottom: 150px;
+    padding-bottom: 3vw;
 }
 
 .text_content .title{
-    padding-top: 3px;
+    padding-top: 1vw;
     margin: 0;
 }
 
 .text_content .title h1{
-    font-size: 60px;
+    font-size: 5vw;
     text-align: center;
     color: rgb(255, 113, 25);
-    letter-spacing: 10px;
+    letter-spacing: 0.5vw;
 }
 
 .text_content .info1{
-    padding: 15px 0;
+    padding: 1vw 0;
     width: 100%;
     text-align: center;
 }
 
 .text_content .info1 h1{
-    font-size: 50px;
-    letter-spacing: 2px;
+    font-size: 3vw;
+    letter-spacing: 0.5vw;
 }
 
 .text_content .info1 p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 20px;
-    margin: 0 80px;
+    font-size: 1.5vw;
+    margin: 0 3vw;
+    line-height: 2vw;
 }
 
 .text_content .info2{
-    padding: 15px 0;
+    padding: 1vw 0;
     width: 100%;
     text-align: center;
 }
 
 .text_content .info2 h1{
-    font-size: 50px;
-    letter-spacing: 2px;
+    font-size: 3vw;
+    letter-spacing: 0.5vw;
 }
 
 .text_content .info2 p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 20px;
-    margin: 0 80px;
+    font-size: 1.5vw;
+    margin: 0 3vw;
+    line-height: 2vw;
 }
 
 .content_container .image_section{
@@ -210,9 +212,9 @@ body{
 
 .image_section .team_content h1{
     margin: 0;
-    padding: 35px 0;
-    font-size: 60px;
-    letter-spacing: 10px;
+    padding: 2vw 0;
+    font-size: 5vw;
+    letter-spacing: 1vw;
     color: rgb(255, 113, 25);
 }
 
@@ -224,7 +226,7 @@ body{
 .image_section .team_content .gallery .team_image{
     width: 350px;
     height: 200px;
-    padding: 25px;
+    padding: 3vw;
     border: 5px solid black;
 }
 
