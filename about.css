@@ -138,7 +138,7 @@ body{
 }
 
 .content_container .info_section{
-    background-image: url("../Images/about.jpg");
+    background-image: url("./Images/about.jpg");
     background-size: cover;
 }
 
