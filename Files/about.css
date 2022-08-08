@@ -1,0 +1,274 @@
+body{
+    margin:0;
+    padding: 0;
+    overflow: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-image: linear-gradient(rgb(48, 174, 220), rgba(163, 228, 247, 0.6));
+    position: fixed;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    top:0;
+    justify-content:space-evenly;
+    align-items: center;
+    border-bottom: 1px black;
+    
+}
+
+.logo-image{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 300px;
+}
+
+.search{
+    border-radius: 5px;
+    border:none;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.burger_menu{
+    display: none;
+}
+
+.menu{
+    margin-right: 20px;
+}
+
+.menu ul{
+    list-style: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu ul li{
+    float: right;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.menu ul .active{
+    color:rgb(255, 113, 25);
+}
+
+@media screen and (max-width:600px) {
+
+    .header{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .logo{
+        height: 85px;
+    }
+
+    .logo-image{
+        width:150px;
+    }
+
+    .search-bar{
+        position: fixed;
+    }
+
+    .search{
+        height:30px;
+        margin-left: 10px;
+    }
+
+    .burger_menu{
+        display: block;
+        width: 100%;
+        height: auto;
+        text-align: right;
+    }
+
+    .menu-icon{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .menu{
+        position: fixed;
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: 0;
+        top:130px;
+        display: none;
+    }
+    .menu ul{
+        top: 0;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        background-color: white;
+        margin:0;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .menu ul a{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu ul li{
+        margin: 0;
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+
+.content_container{
+    width: 100%;
+    margin-top: 130px;
+}
+
+.content_container .info_section{
+    background-image: url("../Images/about.jpg");
+    background-size: cover;
+}
+
+.content_container .info_section .text_content{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: rgb(239, 239, 239);
+    padding-bottom: 150px;
+}
+
+.text_content .title{
+    padding-top: 3px;
+    margin: 0;
+}
+
+.text_content .title h1{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 113, 25);
+    letter-spacing: 10px;
+}
+
+.text_content .info1{
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.text_content .info1 h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.text_content .info1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 80px;
+}
+
+.text_content .info2{
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.text_content .info2 h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.text_content .info2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 80px;
+}
+
+.content_container .image_section{
+    width: 100%;
+    background-image: url("../Images/content1-bcgimg.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.image_section .team_content{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.603), rgba(255, 255, 255, 0.397));
+}
+
+.image_section .team_content h1{
+    margin: 0;
+    padding: 35px 0;
+    font-size: 60px;
+    letter-spacing: 10px;
+    color: rgb(255, 113, 25);
+}
+
+.image_section .team_content .gallery{
+    width: 100%;
+    text-align: center;
+}
+
+.image_section .team_content .gallery .team_image{
+    width: 350px;
+    height: 200px;
+    padding: 25px;
+    border: 5px solid black;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin: 30px 50px;
+}
+
+.footer-menu .services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.footer-menu .aboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.company{
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_img{
+    width:50px;
+    height: auto;
+    margin-left: 5px;
+}
